@@ -129,7 +129,7 @@
                                         </div>
 
                                         <div class="form-outline mb-4">
-                                            <label class="form-label" for="formCountry">Telephone Number</label>
+                                            <label class="form-label" for="formTelephone">Telephone Number</label>
                                             <input type="number" id="formCountry" name="number" class="form-control"
                                                 placeholder="Country" />
                                         </div>
