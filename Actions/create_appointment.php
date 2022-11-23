@@ -16,9 +16,9 @@
 
     if($result){
         echo "success";
-        header("location: ../view/admin.php");
+        header("location: ../View/admin.php");
     }else{
         echo "<script>alert('failed')</script>";
-        header("location: ../view/admin.php");
+        header("location: ../View/admin.php");
     }
 ?>
