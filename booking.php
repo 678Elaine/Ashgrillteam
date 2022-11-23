@@ -148,7 +148,7 @@
                 </div>
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <form action="../Login/loginprocess.php" method="POST" id="paymentForm">
+                <form action="Login/loginprocess.php" method="POST" id="paymentForm">
                     <div class="row g-3">
                        
                         <div class="col-12 col-sm-6">
@@ -179,16 +179,16 @@
                             <div class="time" id="time" data-target-input="nearest">
                                 <input type="text"
                                     class="form-control datetimepicker-input"
-                                    placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                    placeholder="Choose Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
                             </div>
                         </div>
                         <div class="col-12">
                             <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                         </div>
 
-                        <input type="payment" name="payment" placeholder="Payment" id="amount" value="0.01" required></br>
+                        <input type="payment" name="payment" placeholder="Payment" id="amount" value="1.00" required></br>
                         <div class="col-12">
-                            <input class="btn btn-primary w-100 py-3" type="submit" value="Pay" onclick="payWithPaystack()">
+                            <button class="btn btn-primary w-100 py-3" type="submit" value="Pay" onclick="payWithPaystack()">Book Appointment</button>
                         </div>
 
                         
@@ -196,7 +196,7 @@
 
                     </div>
                     </form>
-                    <script src= "../JS/payment.js"></script>
+                    <script src= "JS/payment.js"></script>
                 </div>
             </div>
         </div>
