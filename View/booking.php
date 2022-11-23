@@ -25,15 +25,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="../View1/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../View1/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../View1/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../View1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../View1/css/style.css" rel="stylesheet">
+
+    <script src="https://js.paystack.co/v1/inline.js"></script> 
+    
 </head>
 
 <body>
@@ -73,7 +76,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <a href="../index.php" class="navbar-brand ms-4 ms-lg-0">
             <h1 class="text-primary m-0"><img class="me-3" src="img/iconash.png" alt="Icon">AshGrill</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -81,10 +84,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php" class="nav-item nav-link">Home</a>
-                <a href="about.php" class="nav-item nav-link">About</a>
-                <a href="services.php"  class="nav-item nav-link">Services</a>
-                <a href="appointment.php" class="nav-item nav-link">Appointments</a>
+                <a href="../index.php" class="nav-item nav-link">Home</a>
+                <a href="../View1/about.php" class="nav-item nav-link">About</a>
+                <a href="../View1/services.php"  class="nav-item nav-link">Services</a>
+                <a href="../View1/appointment.php" class="nav-item nav-link">Appointments</a>
                 <!-- <a href="contact.php" class="nav-item nav-link">Contact</a> -->
             </div>
             <a href="<?php if(isset($_SESSION['isLogin'])) 
@@ -147,14 +150,14 @@
                 </div>
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <form action="../Login/loginprocess.php" method="POST">
+                <form action="../Login/loginprocess.php" method="POST" id="paymentForm">
                     <div class="row g-3">
                        
                         <div class="col-12 col-sm-6">
                             <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
                         </div>
                         <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
+                            <input type="email" class="form-control" placeholder="Your Email" id ="email-address" style="height: 55px;">
                         </div>
                         <div class="col-12 col-sm-6">
                             <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
@@ -184,12 +187,18 @@
                         <div class="col-12">
                             <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                         </div>
+
+                        <input type="payment" name="payment" placeholder="Payment" id="amount" value="0.01" required></br>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                            <input class="btn btn-primary w-100 py-3" type="submit" onclick="payWithPaystack()">Book Appointment</input>
                         </div>
+
+                        
+
 
                     </div>
                     </form>
+                    <script src= "../JS/payment.js"></script>
                 </div>
             </div>
         </div>
