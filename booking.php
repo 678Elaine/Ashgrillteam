@@ -34,6 +34,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+     <script src="https://js.paystack.co/v1/inline.js"></script> 
 </head>
 
 <body>
