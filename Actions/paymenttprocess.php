@@ -13,7 +13,7 @@ $curl = curl_init();
    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
    CURLOPT_CUSTOMREQUEST => "GET",
    CURLOPT_HTTPHEADER => array(
-     "Authorization: Bearer sk_test_9140e1b413d42984f88abc931f0e7af7218d9aab",
+     "Authorization: Bearer sk_live_497a3a223893acf3ff8ecfd4dce1158b2fc9b088",
      "Cache-Control: no-cache",
    ),
  ));
