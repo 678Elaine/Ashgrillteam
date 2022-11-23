@@ -1,16 +1,10 @@
 <?php
 
-    // Subscribe my channel if you are using this code
-    // Subscribe my channel if you are using this code
-    // Subscribe my channel if you are using this code
-    // Subscribe my channel if you are using this code
-    // Subscribe my channel if you are using this code
-
 
     use PHPMailer\PHPMailer\PHPMailer;
     function sendmail(){
         $name = "ASHGRILL";  // Name of your website or yours
-        $to = "elaine.roberts@ashesi.edu.gh";  // mail of reciever
+        $to = $email;  // mail of reciever
         $subject = "Confirmation";
         $body = "Congratulations! You have sucessfully booked your spot at the Grill!";
         $from = "wecreategh2812@gmail.com";  // you mail
