@@ -112,7 +112,8 @@
     <!-- Page Header End -->
 
 
-    <!-- Appointment Start -->
+   
+ <!-- Appointment Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
@@ -147,14 +148,14 @@
                 </div>
 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <form action="../Login/loginprocess.php" method="POST">
+                <form action="../Login/loginprocess.php" method="POST" id="paymentForm">
                     <div class="row g-3">
                        
                         <div class="col-12 col-sm-6">
                             <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
                         </div>
                         <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
+                            <input type="email" class="form-control" placeholder="Your Email" id ="email-address" style="height: 55px;">
                         </div>
                         <div class="col-12 col-sm-6">
                             <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
@@ -184,16 +185,25 @@
                         <div class="col-12">
                             <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                         </div>
+
+                        <input type="payment" name="payment" placeholder="Payment" id="amount" value="0.01" required></br>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                            <input class="btn btn-primary w-100 py-3" type="submit" onclick="payWithPaystack()">Book Appointment</input>
                         </div>
+
+                        
+
 
                     </div>
                     </form>
+                    <script src= "../JS/payment.js"></script>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Appointment End -->
+        
+
     <!-- Appointment End -->
         
 
