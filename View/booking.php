@@ -85,9 +85,9 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="../index.php" class="nav-item nav-link">Home</a>
-                <a href="../View1/about.php" class="nav-item nav-link">About</a>
-                <a href="../View1/services.php"  class="nav-item nav-link">Services</a>
-                <a href="../View1/appointment.php" class="nav-item nav-link">Appointments</a>
+                <a href="../View/about.php" class="nav-item nav-link">About</a>
+                <a href="../View/services.php"  class="nav-item nav-link">Services</a>
+                <a href="../View/appointment.php" class="nav-item nav-link">Appointments</a>
                 <!-- <a href="contact.php" class="nav-item nav-link">Contact</a> -->
             </div>
             <a href="<?php if(isset($_SESSION['isLogin'])) 
@@ -181,16 +181,16 @@
                             <div class="time" id="time" data-target-input="nearest">
                                 <input type="text"
                                     class="form-control datetimepicker-input"
-                                    placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                    placeholder="Choose Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
                             </div>
                         </div>
                         <div class="col-12">
                             <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                         </div>
 
-                        <input type="payment" name="payment" placeholder="Payment" id="amount" value="0.01" required></br>
+                        <input type="payment" name="payment" placeholder="Payment" id="amount" value="1.00" required></br>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit" onclick="payWithPaystack()">Book Appointment</input>
+                            <button class="btn btn-primary w-100 py-3" type="submit" onclick="payWithPaystack()">Book Appointment</button>
                         </div>
 
                         
