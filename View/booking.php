@@ -30,10 +30,10 @@
     <link href="../View1/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="../View1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="View1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="../View1/css/style.css" rel="stylesheet">
+    <link href="View1/css/style.css" rel="stylesheet">
 
     <script src="https://js.paystack.co/v1/inline.js"></script> 
     
