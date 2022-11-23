@@ -46,7 +46,7 @@
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2" href="tel:+233 20 582 5252"><i class="fa fa-phone-alt text-primary me-2"></i>+233 20 582 5252</a>
+                    <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+233 20 582 5252</a>
                     <a class="text-body px-2" href="mailto:ashgrill@ashesi.edu.gh"><i class="fa fa-envelope-open text-primary me-2"></i>ashgrill@ashesi.edu.gh</a>
                 </div>
             </div>
@@ -77,178 +77,42 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php" class="nav-item nav-link active">Home</a>
+                <a href="index.php" class="nav-item nav-link">Home</a>
                 <a href="about.php" class="nav-item nav-link">About</a>
-                <a href="services.php" class="nav-item nav-link">Services</a>
-                <a href="appointment.php" class="nav-item nav-link">Appointments</a>
-                </div>
+                <a href="services.php"  class="nav-item nav-link">Services</a>
+                <a href="appointment.php" class="nav-item nav-link active">Appointments</a>
                 <!-- <a href="contact.php" class="nav-item nav-link">Contact</a> -->
             </div>
-            <a href="login.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Book Now!</a>
+            <a href="login.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Booking</a>
         </div>
     </nav>
     <!-- Navbar End -->
 
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/ashgrill.png'>">
-                <img class="img-fluid" src="img/ashgrill.png" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Passionate About Your Business</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">AshGrill is the latest hub for Ashesi Student Businesses. We are a friendly and transparent Booking Agency based in Ashesi. We provide businesses an avenue to sell their goods at designated slots on campus. Accessible to
-                                    the entire Ashesi community, any day of the week!</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/laila.jpg'>">
-                <img class="img-fluid" src="img/laila.jpg" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Student Business Highlight</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Catch Laila's Kitchenette Here from 3pm each day.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <h1 class="display-1 text-white animated slideInDown">Booking</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Booking</li>
+                </ol>
+            </nav>
         </div>
     </div>
-    <!-- Carousel End -->
+    <!-- Page Header End -->
 
 
-    <!-- Facts Start -->
-    <div class="container-xxl py-5">
-        <div class="container pt-5">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/icon-2.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Advertise</h3>
-                        <p class="mb-0">Reach and enrich your customer base across Ashesi.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/icon-3.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Innovative Solutions</h3>
-                        <p class="mb-0">Your business is the solution to many problems. meet that impromptu need</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/icon-4.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Timely Booking</h3>
-                        <p class="mb-0">Secure your spot in under 20 minutes, show up and make mad money! </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Facts End -->
-
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="about-img">
-                        <img class="img-fluid" src="img/ashgrill.png" alt="">
-                        <img class="img-fluid" src="img/ashgrill.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h4 class="section-title">About Us</h4>
-                    <h1 class="display-5 mb-4">Your easiest access to all members of the Ashesi community</h1>
-                    <p>AshGrill is the latest hub for Ashesi Student Businesses. We are a friendly and transparent Booking Agency based in Ashesi. We provide businesses an avenue to sell their goods at designated slots on campus. Accessible to the entire
-                        Ashesi community, any day of the week! Expand the scope of your clientele.
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Our Services</h4>
-                <h1 class="display-5 mb-4">We Focused On Modern Architecture And Interior Design</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/food.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/food.jpg" alt="Icon">
-                            <h3 class="mb-3">Food</h3>
-                            <p class="mb-4">1 hour</p>
-                            <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/snacks.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/snacks.jpg" alt="Icon">
-                            <h3 class="mb-3">Snacks</h3>
-                            <p class="mb-4">1 hour</p>
-                            <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/clothes.jpeg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/clothes.jpg" alt="Icon">
-                            <h3 class="mb-3">Clothes</h3>
-                            <p class="mb-4">1 hour</p>
-                            <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
-
-
-
-
-    <!-- Contact Start -->
+    <!-- Appointment Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">Contact Us</h4>
+                    <h4 class="section-title">Booking</h4>
+                    <h1 class="display-5 mb-4">Book a Slot for Your Businesss</h1>
+                    <p class="mb-4"></p>
                     <div class="row g-4">
                         <div class="col-12">
                             <div class="d-flex">
@@ -288,39 +152,41 @@
                         <div class="col-12 col-sm-6">
                             <select class="form-select" style="height: 55px;">
                                 <option selected>Choose Service</option>
-                                <option value="1">Food</option>
+                                <option value="1">Food </option>
                                 <option value="2">Snacks</option>
                                 <option value="3">Clothes</option>
                             </select>
                         </div>
-                        <!-- <div class="col-12 col-sm-6">
+                        <div class="col-12 col-sm-6">
                             <div class="date" id="date" data-target-input="nearest">
-                                <input type="text" class="form-control datetimepicker-input" placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                <input type="text"
+                                    class="form-control datetimepicker-input"
+                                    placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
                             </div>
-                        </div> -->
-                        <!-- <div class="col-12 col-sm-6">
+                        </div>
+                        <div class="col-12 col-sm-6">
                             <div class="time" id="time" data-target-input="nearest">
-                                <input type="text" class="form-control datetimepicker-input" placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                <input type="text"
+                                    class="form-control datetimepicker-input"
+                                    placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
                             </div>
-                        </div> -->
+                        </div>
                         <div class="col-12">
                             <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Send</button>
+                            <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+    <!-- Appointment End -->
+        
 
-
-
-
-     <!-- Footer Start -->
-     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
