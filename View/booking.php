@@ -190,7 +190,7 @@
 
                         <input type="payment" name="payment" placeholder="Payment" id="amount" value="0.01" required></br>
                         <div class="col-12">
-                            <input class="btn btn-primary w-100 py-3" type="submit" onclick="payWithPaystack()">Book Appointment</input>
+                            <button class="btn btn-primary w-100 py-3" type="submit" onclick="payWithPaystack()">Book Appointment</input>
                         </div>
 
                         
