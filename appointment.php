@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+require_once("../Controllers/appointment_controller.php");
+?>
 <html lang="en">
 
 <head>
@@ -139,24 +141,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-3">
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <select class="form-select" style="height: 55px;">
-                                <option selected>Choose Service</option>
-                                <option value="1">Food </option>
-                                <option value="2">Snacks</option>
-                                <option value="3">Clothes</option>
-                            </select>
-                        </div>
+                   
                         <div class="col-12 col-sm-6">
                             <div class="date" id="date" data-target-input="nearest">
                                 <input type="text"
@@ -169,6 +154,8 @@
                                 <input type="text"
                                     class="form-control datetimepicker-input"
                                     placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                
+                                $_GET['appointment_time'];
                             </div>
                         </div>
                         <div class="col-12">
