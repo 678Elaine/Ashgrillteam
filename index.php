@@ -188,52 +188,49 @@
     <!-- About End -->
 
 
-    <!-- Service Start -->
+     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Our Services</h4>
-                <h1 class="display-5 mb-4">We Focused On Modern Architecture And Interior Design</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/food.jpg" alt="">
+                        <img class="bg-img" src="View/img/food.jpg" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="img/food.jpg" alt="Icon">
+                            <!-- <img class="mb-4" src="View/img/food.jpg" alt="Icon"> -->
                             <h3 class="mb-3">Food</h3>
                             <p class="mb-4">1 hour</p>
                             <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
+                            <a class="btn" href="View/appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/snacks.jpg" alt="">
+                        <img class="bg-img" src="View/img/snacks.jpg" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="img/snacks.jpg" alt="Icon">
+                            <!-- <img class="mb-4" src="View/img/snacks.jpg" alt="Icon"> -->
                             <h3 class="mb-3">Snacks</h3>
                             <p class="mb-4">1 hour</p>
                             <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
+                            <a class="btn" href="View/appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/clothes.jpeg" alt="">
+                        <img class="bg-img" src="View/img/clothes.jpg" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="img/clothes.jpg" alt="Icon">
+                            <!-- <img class="mb-4" src="View/img/clothes.jpg" alt="Icon"> -->
                             <h3 class="mb-3">Clothes</h3>
                             <p class="mb-4">1 hour</p>
                             <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
+                            <a class="btn" href="View/appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
