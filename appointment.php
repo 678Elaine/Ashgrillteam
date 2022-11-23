@@ -155,7 +155,10 @@ require_once("../Controllers/appointment_controller.php");
                                     class="form-control datetimepicker-input"
                                     placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
                                 
-                                $_GET['appointment_time'];
+                                <?php
+                                $tell=$_GET['appointment_time'];
+                                echo $tell;
+                                ?>
                             </div>
                         </div>
                         <div class="col-12">
